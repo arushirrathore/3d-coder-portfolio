@@ -112,7 +112,7 @@ export const Hero = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a
-              href="https://github.com/arushi-rathore"
+              href="https://github.com/arushirrathore"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 glass-panel-hover rounded-full text-muted-foreground hover:text-primary transition-colors"
