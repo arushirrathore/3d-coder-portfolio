@@ -8,8 +8,8 @@ export const Resume = () => {
   const isInView = useInView(ref, { once: true, margin: '-100px' });
   const [isExpanded, setIsExpanded] = useState(false);
 
-  const resumeUrl = 'https://drive.google.com/file/d/1cXcEeU_J-82dq1oNon6i0_weOj7t7SFE/view?usp=sharing';
-  const googleDriveUrl = 'https://drive.google.com/file/d/1cXcEeU_J-82dq1oNon6i0_weOj7t7SFE/preview';
+  const resumeUrl = 'https://drive.google.com/file/d/1DBeVwus3EPWkS-aWufusWv6HV6KIlETr/view?usp=sharing';
+  const googleDriveUrl = 'https://drive.google.com/file/d/1DBeVwus3EPWkS-aWufusWv6HV6KIlETr/preview';
 
   return (
     <section id="resume" className="py-24 relative overflow-hidden">
