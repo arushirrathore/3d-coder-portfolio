@@ -1,73 +1,120 @@
-# Welcome to your Lovable project
+# 3D Coder Portfolio
 
-## Project info
+A **high-performance 3D interactive developer portfolio** built to showcase my skills, projects, and experience as a **Java Full Stack Developer**.
+This project reflects my ability to design, build, and optimize modern web applications with clean architecture and real-world engineering practices.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 👩‍💻 About Me
 
-There are several ways of editing your application.
+I’m **Arushi Rathore**, a **Java Full Stack Developer** and final-year **Bachelor of Computer Applications (BCA)** student with a strong foundation in backend and frontend development.
 
-**Use Lovable**
+I focus on:
+- Building scalable and secure backend systems using **Java & Spring Boot**
+- Developing responsive and interactive UIs using **React.js**
+- Designing RESTful APIs and Microservices
+- Writing clean, maintainable, and production-ready code
+- Solving problems using **Data Structures and Algorithms**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+This portfolio demonstrates my technical expertise, development mindset, and attention to performance and usability.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🌐 Live Portfolio
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🔗 https://arushirathore.lovable.app
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🛠️ Technical Skills
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Programming Languages
+- Java
+- JavaScript
+- SQL
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Frameworks & Libraries
+- Spring Boot
+- Spring Security
+- Spring Data JPA
+- React.js
+- Redux
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Web Technologies
+- HTML5
+- CSS3
+- RESTful APIs
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### Databases
+- MySQL
+- PostgreSQL
 
-**Edit a file directly in GitHub**
+### Tools & Platforms
+- Git
+- GitHub
+- Maven
+- npm
+- VS Code
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Core Concepts
+- Object-Oriented Programming (OOP)
+- Microservices Architecture
+- Data Structures and Algorithms
+- Authentication & Authorization (JWT)
+- Software Development Life Cycle (SDLC)
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## ✨ Key Features
 
-## What technologies are used for this project?
+- 3D interactive user interface
+- Smooth animations and transitions
+- Fully functional navigation and UI components
+- Integrated resume viewer and download option
+- Real-world project showcase
+- Responsive design for all screen sizes
+- Clean, modular, and scalable code structure
+- Performance-optimized rendering
+- Recruiter and ATS-friendly content
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📂 Website Sections
 
-## How can I deploy this project?
+- **Hero Section** – 3D introduction with developer-focused branding
+- **About Me** – Professional summary and background
+- **Skills** – Categorized technical expertise
+- **Projects** – Real-world applications with implementation details
+- **Education & Certifications** – Academic and professional achievements
+- **Resume** – Embedded and downloadable PDF
+- **Contact** – Professional contact details
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 📌 Projects
 
-Yes, you can!
+### E-Commerce Web Application
+**Technologies:** Java, Spring Boot, Spring Security, React.js, MySQL
+- Developed a microservices-based architecture
+- Implemented JWT authentication and role-based access control
+- Optimized database queries to improve performance
+- Designed secure RESTful APIs
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Portfolio Website
+**Technologies:** React.js, JavaScript, GitHub API
+- Built a responsive portfolio using modern frontend practices
+- Integrated GitHub API for dynamic project data
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### DSA Visualizer
+**Technologies:** React.js, HTML5 Canvas, JavaScript
+- Visualized sorting algorithms using Canvas API
+- Explained time and space complexity
+- Improved learning experience for DSA concepts
+
+---
+
+GitHub
+Data Structures and Algorithms
+Object-Oriented Programming
+
+---
