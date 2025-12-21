@@ -19,11 +19,11 @@ export const ParticleField = ({ count = 500, size = 0.02 }: ParticleFieldProps) 
       positions[i * 3 + 1] = (Math.random() - 0.5) * 20;
       positions[i * 3 + 2] = (Math.random() - 0.5) * 20;
       
-      // Cyan to purple gradient
-      const t = Math.random();
-      colors[i * 3] = 0 + t * 0.5;     // R
-      colors[i * 3 + 1] = 0.8 - t * 0.3; // G
-      colors[i * 3 + 2] = 1;            // B
+      // Monochrome - white particles with varying brightness
+      const brightness = 0.5 + Math.random() * 0.5;
+      colors[i * 3] = brightness;
+      colors[i * 3 + 1] = brightness;
+      colors[i * 3 + 2] = brightness;
     }
     
     return { positions, colors };
