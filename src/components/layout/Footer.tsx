@@ -10,7 +10,7 @@ const socialLinks = [
   {
     name: 'GitHub',
     icon: Github,
-    href: 'https://github.com/arushi-rathore',
+    href: 'https://github.com/arushirrathore',
   },
   {
     name: 'Email',

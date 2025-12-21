@@ -13,7 +13,7 @@ const projects = [
       'Developed a microservices-based e-commerce platform with JWT authentication, Role-Based Access Control, and Spring Data JPA backend. Achieved 20% performance improvement through database optimization and Redis caching implementation.',
     tech: ['Java', 'Spring Boot', 'Spring Security', 'React.js', 'Redux', 'MySQL', 'Redis', 'JWT'],
     image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop',
-    github: 'https://github.com/arushi-rathore/ecommerce-app',
+    github: 'https://github.com/arushirrathore/ecom1',
     live: '#',
     featured: true,
   },
@@ -182,7 +182,7 @@ export const Projects = () => {
         >
           <Button
             variant="ghost"
-            onClick={() => window.open('https://github.com/arushi-rathore', '_blank')}
+            onClick={() => window.open('https://github.com/arushirrathore', '_blank')}
             className="text-muted-foreground hover:text-primary group"
           >
             View All Projects on GitHub
