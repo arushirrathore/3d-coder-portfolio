@@ -8,7 +8,7 @@ export const Resume = () => {
   const isInView = useInView(ref, { once: true, margin: '-100px' });
   const [isExpanded, setIsExpanded] = useState(false);
 
-  const resumeUrl = '/resume/arushi-rathore-resume.pdf';
+  const resumeUrl = 'https://drive.google.com/file/d/1cXcEeU_J-82dq1oNon6i0_weOj7t7SFE/view?usp=sharing';
   const googleDriveUrl = 'https://drive.google.com/file/d/1cXcEeU_J-82dq1oNon6i0_weOj7t7SFE/preview';
 
   return (
