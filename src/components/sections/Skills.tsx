@@ -1,6 +1,5 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { Skills3D } from '@/components/3d/Skills3D';
 
 const skillCategories = [
   {
@@ -85,7 +84,7 @@ export const Skills = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
-          className="text-center mb-12"
+          className="text-center mb-16"
         >
           <span className="font-mono text-primary text-sm">{'<Skills />'}</span>
           <h2 className="text-3xl md:text-4xl font-bold mt-2">
@@ -96,24 +95,14 @@ export const Skills = () => {
           </p>
         </motion.div>
 
-        {/* 3D Skills Visualization */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={isInView ? { opacity: 1, scale: 1 } : {}}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="mb-16"
-        >
-          <Skills3D />
-        </motion.div>
-
         <div className="grid md:grid-cols-2 gap-8">
           {skillCategories.map((category, categoryIndex) => (
             <motion.div
               key={category.title}
               initial={{ opacity: 0, y: 30 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.6, delay: categoryIndex * 0.1 + 0.3 }}
-              className="glass-panel rounded-2xl p-6 hover:shadow-[0_0_30px_hsl(186_100%_50%/0.15)] transition-shadow duration-500"
+              transition={{ duration: 0.6, delay: categoryIndex * 0.1 }}
+              className="glass-panel rounded-2xl p-6"
             >
               <h3 className="text-xl font-semibold mb-6 flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
@@ -125,7 +114,7 @@ export const Skills = () => {
                     key={skill.name}
                     name={skill.name}
                     level={skill.level}
-                    delay={0.5 + categoryIndex * 0.1 + skillIndex * 0.05}
+                    delay={0.3 + categoryIndex * 0.1 + skillIndex * 0.05}
                     isInView={isInView}
                   />
                 ))}
