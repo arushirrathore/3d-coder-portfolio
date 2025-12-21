@@ -87,7 +87,7 @@ export const Hero = () => {
             <Button
               variant="outline"
               size="lg"
-              onClick={() => window.open('/resume/arushi-rathore-resume.pdf', '_blank')}
+              onClick={() => window.open('https://drive.google.com/file/d/1cXcEeU_J-82dq1oNon6i0_weOj7t7SFE/view?usp=sharing', '_blank')}
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground group"
             >
               <FileDown className="mr-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
