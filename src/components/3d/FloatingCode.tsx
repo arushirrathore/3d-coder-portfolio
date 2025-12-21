@@ -39,7 +39,7 @@ const CodeBlock = ({ position, text, index }: CodeBlockProps) => {
         <mesh>
           <boxGeometry args={[text.length * 0.12 + 0.4, 0.35, 0.05]} />
           <meshStandardMaterial
-            color="#0a1628"
+            color="#0a0a0a"
             transparent
             opacity={0.9}
             metalness={0.5}
@@ -49,7 +49,7 @@ const CodeBlock = ({ position, text, index }: CodeBlockProps) => {
         <Text
           position={[0, 0, 0.03]}
           fontSize={0.15}
-          color="#00e5ff"
+          color="#ffffff"
           anchorX="center"
           anchorY="middle"
           font="/fonts/JetBrainsMono-Regular.ttf"
