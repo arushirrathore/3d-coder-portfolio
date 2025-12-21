@@ -10,7 +10,7 @@ const socialLinks = [
   {
     name: 'LinkedIn',
     icon: Linkedin,
-    href: 'https://linkedin.com/in/arushi-rathore',
+    href: 'https://in.linkedin.com/in/arushi-rathore-312a1b374',
     color: 'hover:text-[#0077b5]',
   },
   {
