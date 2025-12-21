@@ -103,7 +103,7 @@ export const Hero = () => {
             className="flex items-center justify-center gap-4 mt-8"
           >
             <a
-              href="https://linkedin.com/in/arushi-rathore"
+              href="https://in.linkedin.com/in/arushi-rathore-312a1b374"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 glass-panel-hover rounded-full text-muted-foreground hover:text-primary transition-colors"
