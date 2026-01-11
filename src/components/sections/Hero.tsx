@@ -87,7 +87,7 @@ export const Hero = () => {
             <Button
               variant="outline"
               size="lg"
-              onClick={() => window.open('https://drive.google.com/file/d/1DBeVwus3EPWkS-aWufusWv6HV6KIlETr/view?usp=sharing', '_blank')}
+              onClick={() => window.open('https://drive.google.com/file/d/1YJ53UaX7480WDyeYW_F7sXNGfHBhf60z/view?usp=sharing', '_blank')}
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground group"
             >
               <FileDown className="mr-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
