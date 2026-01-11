@@ -6,39 +6,39 @@ import { Badge } from '@/components/ui/badge';
 
 const projects = [
   {
-    title: 'E-Commerce Web Application',
+    title: 'Exam Seating Arrangement System',
+    role: 'Full Stack Developer',
+    period: 'Java Servlets & JSP',
+    description:
+      'Built web-based exam seating management system using Java Servlets and JSP framework. Designed MySQL database schema for student data and automated seat allocation logic. Implemented admin panel for managing exam schedules and generating seating reports.',
+    tech: ['Java', 'Servlets', 'JSP', 'MySQL', 'HTML', 'CSS'],
+    image: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&h=400&fit=crop',
+    github: 'https://github.com/arushirrathore/Exam-Seating-Arrangement-System',
+    live: 'https://examseatingar.lovable.app',
+    featured: true,
+  },
+  {
+    title: 'Password Generator Application',
     role: 'Java Developer',
-    period: 'January 2025 – March 2025',
+    period: 'Security Tool',
     description:
-      'Developed a microservices-based e-commerce platform with JWT authentication, Role-Based Access Control, and Spring Data JPA backend. Achieved 20% performance improvement through database optimization and Redis caching implementation.',
-    tech: ['Java', 'Spring Boot', 'Spring Security', 'React.js', 'Redux', 'MySQL', 'Redis', 'JWT'],
-    image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop',
-    github: 'https://github.com/arushirrathore/ecom1',
-    live: '#',
+      'Developed secure password generation tool with customizable parameters and strength validation. Implemented user-friendly interface for creating strong, random passwords for enhanced security. Applied core Java programming concepts to generate cryptographically secure passwords.',
+    tech: ['Java', 'JavaScript', 'React', 'Security', 'Cryptography'],
+    image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop',
+    github: 'https://github.com/arushirrathore/password-genrator1',
+    live: 'https://passwordgenra.lovable.app',
     featured: true,
   },
   {
-    title: 'Portfolio Website',
-    role: 'Frontend Developer',
-    period: 'October 2024 – November 2024',
+    title: 'Word Count Tool',
+    role: 'Java Developer',
+    period: 'Text Analysis',
     description:
-      'Built a responsive React.js portfolio website with GitHub API integration for dynamic project fetching and continuous deployment pipeline using GitHub Pages.',
-    tech: ['React.js', 'JavaScript', 'HTML5', 'CSS3', 'GitHub API', 'GitHub Pages'],
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
-    github: 'https://github.com/arushi-rathore/portfolio',
-    live: '#',
-    featured: true,
-  },
-  {
-    title: 'DSA Visualizer',
-    role: 'Software Developer',
-    period: 'August 2024 – September 2024',
-    description:
-      'Created an interactive sorting algorithm visualization tool using HTML5 Canvas API with Big O complexity analysis, helping developers understand algorithm performance visually.',
-    tech: ['JavaScript', 'React.js', 'HTML5 Canvas', 'CSS3', 'Algorithms'],
-    image: 'https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=600&h=400&fit=crop',
-    github: 'https://github.com/arushi-rathore/dsa-visualizer',
-    live: '#',
+      'Built text analysis application to count words, characters, and lines in user-provided text. Designed intuitive interface for real-time text statistics and analysis. Utilized Java programming fundamentals for efficient string processing and data manipulation.',
+    tech: ['Java', 'String Processing', 'Data Manipulation', 'UI Design'],
+    image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=400&fit=crop',
+    github: 'https://github.com/arushirrathore/word_count_tool_ar',
+    live: '',
     featured: true,
   },
 ];
@@ -88,15 +88,17 @@ const ProjectCard = ({ project, index, isInView }: ProjectCardProps) => {
               <Github className="mr-2 h-4 w-4" />
               Code
             </Button>
-            <Button
-              size="sm"
-              variant="outline"
-              onClick={() => window.open(project.live, '_blank')}
-              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-            >
-              <ExternalLink className="mr-2 h-4 w-4" />
-              Demo
-            </Button>
+            {project.live && (
+              <Button
+                size="sm"
+                variant="outline"
+                onClick={() => window.open(project.live, '_blank')}
+                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+              >
+                <ExternalLink className="mr-2 h-4 w-4" />
+                Demo
+              </Button>
+            )}
           </motion.div>
         </div>
 
